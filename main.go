@@ -1,13 +1,8 @@
 package main
 
 import "fmt"
-import (
-	hellomodV2 "github.com/donvito/hellomod/v2"
-)
 
 func main() {
-
-	hellomodV2.SayHello("Melvin")
 
 	group := NewGroupFactory("Gang")
 	group.AddMember(&Wannabee{"Kurt"})
