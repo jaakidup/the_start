@@ -7,7 +7,7 @@ func main() {
 	candidates := []string{"Spectral", "GopherOne", "GopherJoe"}
 	newMember := Wannabee{}
 
-	// let fly (>Y<)
+	// let fly }>Y<{
 	for _, name := range candidates {
 		newMember.Name = name
 		group.AddMember(newMember)
